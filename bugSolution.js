@@ -1,0 +1,1 @@
+function foo(a,b){    if(a === 0 && b === 0) {        return 0; // Or return NaN;    } else if(a === 0 || b === 0) {        return 0;    }    return a/b;}foo(0,0); //this will return 0
